@@ -15,7 +15,6 @@
 #include <visualization_msgs/Marker.h>
 #include "grid_path_searcher/update_goal.h"
 #include "Astar_searcher.h"
-#include "JPS_searcher.h"
 #include "backward.hpp"
 
 using namespace std;
@@ -42,12 +41,11 @@ ros::Publisher  _grid_path_vis_pub, _visited_nodes_vis_pub, _grid_map_vis_pub;
 ros::ServiceServer service;
 ros::ServiceClient client;
 AstarPathFinder * _astar_path_finder     = new AstarPathFinder();
-JPSPathFinder   * _jps_path_finder       = new JPSPathFinder();
 
 void rcvWaypointsCallback(const nav_msgs::Path & wp);
 void rcvPointCloudCallBack(const sensor_msgs::PointCloud2 & pointcloud_map);
 
-void visGridPath( vector<Vector3d> nodes, bool is_use_jps );
+void visGridPath( vector<Vector3d> nodes);
 void visVisitedNode( vector<Vector3d> nodes );
 void pathFinding(const Vector3d start_pt, const Vector3d target_pt);
 
@@ -113,7 +111,7 @@ void pathFinding(const Vector3d start_pt, const Vector3d target_pt)
     auto visited_nodes = _astar_path_finder->getVisitedNodes();
 
     //Visualize the result
-    visGridPath (grid_path, false);
+    visGridPath (grid_path);
     visVisitedNode(visited_nodes);
 
     //Reset map for next call_map_lower
@@ -179,20 +177,16 @@ int main(int argc, char** argv)
     }
 
     delete _astar_path_finder;
-    delete _jps_path_finder;
     return 0;
 }
 
-void visGridPath( vector<Vector3d> nodes, bool is_use_jps )
+void visGridPath( vector<Vector3d> nodes )
 {   
     visualization_msgs::Marker node_vis; 
     node_vis.header.frame_id = "world";
     node_vis.header.stamp = ros::Time::now();
-    
-    if(is_use_jps)
-        node_vis.ns = "demo_node/jps_path";
-    else
-        node_vis.ns = "demo_node/astar_path";
+
+    node_vis.ns = "demo_node/astar_path";
 
     node_vis.type = visualization_msgs::Marker::CUBE_LIST;
     node_vis.action = visualization_msgs::Marker::ADD;
@@ -203,18 +197,11 @@ void visGridPath( vector<Vector3d> nodes, bool is_use_jps )
     node_vis.pose.orientation.z = 0.0;
     node_vis.pose.orientation.w = 1.0;
 
-    if(is_use_jps){
-        node_vis.color.a = 1.0;
-        node_vis.color.r = 1.0;
-        node_vis.color.g = 0.0;
-        node_vis.color.b = 0.0;
-    }
-    else{
-        node_vis.color.a = 1.0;
-        node_vis.color.r = 0.0;
-        node_vis.color.g = 1.0;
-        node_vis.color.b = 0.0;
-    }
+
+    node_vis.color.a = 1.0;
+    node_vis.color.r = 0.0;
+    node_vis.color.g = 1.0;
+    node_vis.color.b = 0.0;
 
 
     node_vis.scale.x = _resolution;

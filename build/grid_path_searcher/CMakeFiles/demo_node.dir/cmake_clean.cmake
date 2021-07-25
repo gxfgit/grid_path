@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/demo_node.dir/src/demo_node.cpp.o"
   "CMakeFiles/demo_node.dir/src/Astar_searcher.cpp.o"
-  "CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.o"
-  "CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.o"
   "/home/goat/catkin_ws/devel/lib/grid_path_searcher/demo_node.pdb"
   "/home/goat/catkin_ws/devel/lib/grid_path_searcher/demo_node"
 )

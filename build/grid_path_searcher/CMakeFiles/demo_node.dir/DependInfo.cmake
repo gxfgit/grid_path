@@ -6,8 +6,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/goat/catkin_ws/src/grid_path_searcher/src/Astar_searcher.cpp" "/home/goat/catkin_ws/build/grid_path_searcher/CMakeFiles/demo_node.dir/src/Astar_searcher.cpp.o"
   "/home/goat/catkin_ws/src/grid_path_searcher/src/demo_node.cpp" "/home/goat/catkin_ws/build/grid_path_searcher/CMakeFiles/demo_node.dir/src/demo_node.cpp.o"
-  "/home/goat/catkin_ws/src/grid_path_searcher/src/read_only/JPS_searcher.cpp" "/home/goat/catkin_ws/build/grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.o"
-  "/home/goat/catkin_ws/src/grid_path_searcher/src/read_only/JPS_utils.cpp" "/home/goat/catkin_ws/build/grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

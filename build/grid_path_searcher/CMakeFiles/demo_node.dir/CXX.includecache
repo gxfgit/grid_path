@@ -31,6 +31,20 @@ ros/message_operations.h
 -
 
 /home/goat/catkin_ws/devel/include/grid_path_searcher/update_goalResponse.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
 
 /home/goat/catkin_ws/src/grid_path_searcher/include/Astar_searcher.h
 iostream
@@ -45,16 +59,6 @@ backward.hpp
 /home/goat/catkin_ws/src/grid_path_searcher/include/backward.hpp
 node.h
 /home/goat/catkin_ws/src/grid_path_searcher/include/node.h
-
-/home/goat/catkin_ws/src/grid_path_searcher/include/JPS_searcher.h
-Astar_searcher.h
-/home/goat/catkin_ws/src/grid_path_searcher/include/Astar_searcher.h
-JPS_utils.h
-/home/goat/catkin_ws/src/grid_path_searcher/include/JPS_utils.h
-
-/home/goat/catkin_ws/src/grid_path_searcher/include/JPS_utils.h
-iostream
--
 
 /home/goat/catkin_ws/src/grid_path_searcher/include/backward.hpp
 fstream
@@ -167,18 +171,8 @@ grid_path_searcher/update_goal.h
 /home/goat/catkin_ws/src/grid_path_searcher/src/grid_path_searcher/update_goal.h
 Astar_searcher.h
 /home/goat/catkin_ws/src/grid_path_searcher/src/Astar_searcher.h
-JPS_searcher.h
-/home/goat/catkin_ws/src/grid_path_searcher/src/JPS_searcher.h
 backward.hpp
 /home/goat/catkin_ws/src/grid_path_searcher/src/backward.hpp
-
-/home/goat/catkin_ws/src/grid_path_searcher/src/read_only/JPS_searcher.cpp
-JPS_searcher.h
-/home/goat/catkin_ws/src/grid_path_searcher/src/read_only/JPS_searcher.h
-
-/home/goat/catkin_ws/src/grid_path_searcher/src/read_only/JPS_utils.cpp
-JPS_utils.h
-/home/goat/catkin_ws/src/grid_path_searcher/src/read_only/JPS_utils.h
 
 /opt/ros/kinetic/include/geometry_msgs/Point.h
 string

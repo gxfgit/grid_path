@@ -105,68 +105,16 @@ grid_path_searcher/CMakeFiles/demo_node.dir/src/Astar_searcher.cpp.o.provides: g
 grid_path_searcher/CMakeFiles/demo_node.dir/src/Astar_searcher.cpp.o.provides.build: grid_path_searcher/CMakeFiles/demo_node.dir/src/Astar_searcher.cpp.o
 
 
-grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.o: grid_path_searcher/CMakeFiles/demo_node.dir/flags.make
-grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.o: /home/goat/catkin_ws/src/grid_path_searcher/src/read_only/JPS_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/goat/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.o"
-	cd /home/goat/catkin_ws/build/grid_path_searcher && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.o -c /home/goat/catkin_ws/src/grid_path_searcher/src/read_only/JPS_utils.cpp
-
-grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.i"
-	cd /home/goat/catkin_ws/build/grid_path_searcher && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goat/catkin_ws/src/grid_path_searcher/src/read_only/JPS_utils.cpp > CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.i
-
-grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.s"
-	cd /home/goat/catkin_ws/build/grid_path_searcher && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goat/catkin_ws/src/grid_path_searcher/src/read_only/JPS_utils.cpp -o CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.s
-
-grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.o.requires:
-
-.PHONY : grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.o.requires
-
-grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.o.provides: grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.o.requires
-	$(MAKE) -f grid_path_searcher/CMakeFiles/demo_node.dir/build.make grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.o.provides.build
-.PHONY : grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.o.provides
-
-grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.o.provides.build: grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.o
-
-
-grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.o: grid_path_searcher/CMakeFiles/demo_node.dir/flags.make
-grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.o: /home/goat/catkin_ws/src/grid_path_searcher/src/read_only/JPS_searcher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/goat/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.o"
-	cd /home/goat/catkin_ws/build/grid_path_searcher && /usr/local/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.o -c /home/goat/catkin_ws/src/grid_path_searcher/src/read_only/JPS_searcher.cpp
-
-grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.i"
-	cd /home/goat/catkin_ws/build/grid_path_searcher && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/goat/catkin_ws/src/grid_path_searcher/src/read_only/JPS_searcher.cpp > CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.i
-
-grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.s"
-	cd /home/goat/catkin_ws/build/grid_path_searcher && /usr/local/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/goat/catkin_ws/src/grid_path_searcher/src/read_only/JPS_searcher.cpp -o CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.s
-
-grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.o.requires:
-
-.PHONY : grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.o.requires
-
-grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.o.provides: grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.o.requires
-	$(MAKE) -f grid_path_searcher/CMakeFiles/demo_node.dir/build.make grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.o.provides.build
-.PHONY : grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.o.provides
-
-grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.o.provides.build: grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.o
-
-
 # Object files for target demo_node
 demo_node_OBJECTS = \
 "CMakeFiles/demo_node.dir/src/demo_node.cpp.o" \
-"CMakeFiles/demo_node.dir/src/Astar_searcher.cpp.o" \
-"CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.o" \
-"CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.o"
+"CMakeFiles/demo_node.dir/src/Astar_searcher.cpp.o"
 
 # External object files for target demo_node
 demo_node_EXTERNAL_OBJECTS =
 
 /home/goat/catkin_ws/devel/lib/grid_path_searcher/demo_node: grid_path_searcher/CMakeFiles/demo_node.dir/src/demo_node.cpp.o
 /home/goat/catkin_ws/devel/lib/grid_path_searcher/demo_node: grid_path_searcher/CMakeFiles/demo_node.dir/src/Astar_searcher.cpp.o
-/home/goat/catkin_ws/devel/lib/grid_path_searcher/demo_node: grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.o
-/home/goat/catkin_ws/devel/lib/grid_path_searcher/demo_node: grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.o
 /home/goat/catkin_ws/devel/lib/grid_path_searcher/demo_node: grid_path_searcher/CMakeFiles/demo_node.dir/build.make
 /home/goat/catkin_ws/devel/lib/grid_path_searcher/demo_node: /opt/ros/kinetic/lib/libroscpp.so
 /home/goat/catkin_ws/devel/lib/grid_path_searcher/demo_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
@@ -471,7 +419,7 @@ demo_node_EXTERNAL_OBJECTS =
 /home/goat/catkin_ws/devel/lib/grid_path_searcher/demo_node: /usr/lib/x86_64-linux-gnu/libvtkCommonMath-6.2.so.6.2.0
 /home/goat/catkin_ws/devel/lib/grid_path_searcher/demo_node: /usr/lib/x86_64-linux-gnu/libvtkCommonCore-6.2.so.6.2.0
 /home/goat/catkin_ws/devel/lib/grid_path_searcher/demo_node: grid_path_searcher/CMakeFiles/demo_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/goat/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /home/goat/catkin_ws/devel/lib/grid_path_searcher/demo_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/goat/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/goat/catkin_ws/devel/lib/grid_path_searcher/demo_node"
 	cd /home/goat/catkin_ws/build/grid_path_searcher && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/demo_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -481,8 +429,6 @@ grid_path_searcher/CMakeFiles/demo_node.dir/build: /home/goat/catkin_ws/devel/li
 
 grid_path_searcher/CMakeFiles/demo_node.dir/requires: grid_path_searcher/CMakeFiles/demo_node.dir/src/demo_node.cpp.o.requires
 grid_path_searcher/CMakeFiles/demo_node.dir/requires: grid_path_searcher/CMakeFiles/demo_node.dir/src/Astar_searcher.cpp.o.requires
-grid_path_searcher/CMakeFiles/demo_node.dir/requires: grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.o.requires
-grid_path_searcher/CMakeFiles/demo_node.dir/requires: grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.o.requires
 
 .PHONY : grid_path_searcher/CMakeFiles/demo_node.dir/requires
 

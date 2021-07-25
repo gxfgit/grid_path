@@ -771,60 +771,6 @@ src/random_complex_generator.cpp.s:
 	cd /home/goat/catkin_ws/build && $(MAKE) -f grid_path_searcher/CMakeFiles/random_complex.dir/build.make grid_path_searcher/CMakeFiles/random_complex.dir/src/random_complex_generator.cpp.s
 .PHONY : src/random_complex_generator.cpp.s
 
-src/read_only/JPS_searcher.o: src/read_only/JPS_searcher.cpp.o
-
-.PHONY : src/read_only/JPS_searcher.o
-
-# target to build an object file
-src/read_only/JPS_searcher.cpp.o:
-	cd /home/goat/catkin_ws/build && $(MAKE) -f grid_path_searcher/CMakeFiles/demo_node.dir/build.make grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.o
-.PHONY : src/read_only/JPS_searcher.cpp.o
-
-src/read_only/JPS_searcher.i: src/read_only/JPS_searcher.cpp.i
-
-.PHONY : src/read_only/JPS_searcher.i
-
-# target to preprocess a source file
-src/read_only/JPS_searcher.cpp.i:
-	cd /home/goat/catkin_ws/build && $(MAKE) -f grid_path_searcher/CMakeFiles/demo_node.dir/build.make grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.i
-.PHONY : src/read_only/JPS_searcher.cpp.i
-
-src/read_only/JPS_searcher.s: src/read_only/JPS_searcher.cpp.s
-
-.PHONY : src/read_only/JPS_searcher.s
-
-# target to generate assembly for a file
-src/read_only/JPS_searcher.cpp.s:
-	cd /home/goat/catkin_ws/build && $(MAKE) -f grid_path_searcher/CMakeFiles/demo_node.dir/build.make grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_searcher.cpp.s
-.PHONY : src/read_only/JPS_searcher.cpp.s
-
-src/read_only/JPS_utils.o: src/read_only/JPS_utils.cpp.o
-
-.PHONY : src/read_only/JPS_utils.o
-
-# target to build an object file
-src/read_only/JPS_utils.cpp.o:
-	cd /home/goat/catkin_ws/build && $(MAKE) -f grid_path_searcher/CMakeFiles/demo_node.dir/build.make grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.o
-.PHONY : src/read_only/JPS_utils.cpp.o
-
-src/read_only/JPS_utils.i: src/read_only/JPS_utils.cpp.i
-
-.PHONY : src/read_only/JPS_utils.i
-
-# target to preprocess a source file
-src/read_only/JPS_utils.cpp.i:
-	cd /home/goat/catkin_ws/build && $(MAKE) -f grid_path_searcher/CMakeFiles/demo_node.dir/build.make grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.i
-.PHONY : src/read_only/JPS_utils.cpp.i
-
-src/read_only/JPS_utils.s: src/read_only/JPS_utils.cpp.s
-
-.PHONY : src/read_only/JPS_utils.s
-
-# target to generate assembly for a file
-src/read_only/JPS_utils.cpp.s:
-	cd /home/goat/catkin_ws/build && $(MAKE) -f grid_path_searcher/CMakeFiles/demo_node.dir/build.make grid_path_searcher/CMakeFiles/demo_node.dir/src/read_only/JPS_utils.cpp.s
-.PHONY : src/read_only/JPS_utils.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -882,12 +828,6 @@ help:
 	@echo "... src/random_complex_generator.o"
 	@echo "... src/random_complex_generator.i"
 	@echo "... src/random_complex_generator.s"
-	@echo "... src/read_only/JPS_searcher.o"
-	@echo "... src/read_only/JPS_searcher.i"
-	@echo "... src/read_only/JPS_searcher.s"
-	@echo "... src/read_only/JPS_utils.o"
-	@echo "... src/read_only/JPS_utils.i"
-	@echo "... src/read_only/JPS_utils.s"
 .PHONY : help
 
 
